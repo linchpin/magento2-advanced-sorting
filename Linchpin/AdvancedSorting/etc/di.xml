@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Linchpin
+ * @copyright Copyright (c) 2017 Linchpin (https://linchpin.agency)
+ * @package Linchpin_AdvancedSorting
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Catalog\Model\Config">
+        <plugin name="Linchpin_AdvancedSorting::addCustomOptions" type="Linchpin\AdvancedSorting\Plugin\Model\Config" />
+    </type>
+    <type name="Magento\Catalog\Block\Product\ProductList\Toolbar">
+        <plugin name="Linchpin_AdvancedSorting::addPriceDecendingFilterInToolbar" type="Linchpin\AdvancedSorting\Plugin\Product\ProductList\Toolbar" />
+    </type>
+</config>
