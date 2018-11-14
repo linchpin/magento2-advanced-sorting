@@ -56,7 +56,8 @@ class Config  {
 
 		//Merge default sorting options with custom options
 		$options = array_merge($customOption, $options);
-
+                asort($options);
+		
 		return $options;
 	}
 }
