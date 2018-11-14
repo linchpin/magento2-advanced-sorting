@@ -41,8 +41,8 @@ class Config  {
 		$default_options = [];
 		$default_options['name'] = $options['name'];
 
-		unset($options['position']);
-		unset($options['name']);
+		#unset($options['position']);
+		#unset($options['name']);
 		unset($options['price']);
 
 		//Changing label
