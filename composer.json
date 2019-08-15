@@ -1,0 +1,25 @@
+{
+  "name": "linchpin/magento2-advanced-sorting",
+  "description": "Magento 2 Module that adds sorting by name, priority and price within the sorting dropdown instead of having to toggle using the up and down arrow.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Linchpin",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "~5.6.0|7.0.2|7.0.4|~7.0.6"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Linchpin\\AdvancedSorting\\": ""
+    }
+  }
+}
